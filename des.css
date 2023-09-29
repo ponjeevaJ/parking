@@ -1,0 +1,42 @@
+body
+{
+    background-image: url(photo-1506521781263-d8422e82f27a.jpg);
+    background-size: cover;
+}
+.head
+{
+   
+    text-align: center;
+    font-size: xx-large;
+    color: aqua;
+
+}
+.center-container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 85vh; /* Full viewport height */
+  }
+  /* Define the styles for your box */
+  .my-box {
+    width: 1000px;
+    height: 700px;
+    background-color: #e0e0e0;
+    border: 1px solid #333;
+  }
+  .buts
+  {
+    text-align: right; 
+  }
+  .lo
+  {
+    font-size: large;
+    /* size: 10px; */
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .ico
+  {
+    font-size: 17px;
+
+  }
