@@ -1,4 +1,4 @@
-document.getElementById('myButton').onclick = handleClick;
-function handleClick() {
-    alert('Button clicked!');
+document.getElementById('lo').onclick = clk;
+function clk() {
+    window.open("index1.html")
   }
