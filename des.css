@@ -5,198 +5,49 @@ body
 }
 .head
 {
-   
     text-align: center;
     font-size: xx-large;
     color: aqua;
-
 }
   .outer-box {
-    margin-top: 100px;    
-    margin-left: 400px;
-    width: 1000px;
-    height: 700px;
+    margin: auto;
+    width: 1200px;
+    height: 100%;
     background-color: lightblue;
 }
-.inner-box1 {
-    position: absolute;
-    margin-top: 1px;    
+.big{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.inner-box {
     margin-left: 50px;
     width: 150px;
     height: 150px;
     background-color: lightgreen;
+}.small
+{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
 }
-.inner-box2 {
-    position: absolute;
-    margin-top: 1px;    
-    margin-left: 300px;
-    width: 150px;
-    height: 150px;
-    background-color: lightgreen;
-}
-.inner-box3 {
-  position: absolute;
-  margin-top: 1px;    
-  margin-left: 550px;
-  width: 150px;
-  height: 150px;
-  background-color: lightgreen;
-}
-.inner-box4 {
-  position: absolute;
-  margin-top: 1px;    
-  margin-left: 810px;
-  width: 150px;
-  height: 150px;
-  background-color: lightgreen;
-}
-.inner-box5 {
-  position: absolute;
-  margin-top: 200px;    
-  margin-left: 50px;
-  width: 150px;
-  height: 150px;
-  background-color: lightgreen;
-}
-.inner-box6 {
-  position: absolute;
-  margin-top: 200px;    
-  margin-left: 550px;
-  width: 150px;
-  height: 150px;
-  background-color: lightgreen;
-}
-.inner-box7 {
-  position: absolute;
-  margin-top: 200px;    
-  margin-left: 300px;
-  width: 150px;
-  height: 150px;
-  background-color: lightgreen;
-}
-.inner-box8 {
-  position: absolute;
-  margin-top: 200px;    
-  margin-left: 810px;
-  width: 150px;
-  height: 150px;
-  background-color: lightgreen;
-}
-.inner-box9 {
-  position: absolute;
-  margin-top: 400px;    
+
+.inner-boxx {
   margin-left: 50px;
   width: 100px;
   height: 100px;
   background-color: lightgreen;
 }
-.inner-box10 {
-  position: absolute;
-  margin-top: 400px;    
-  margin-left: 200px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-
-.inner-box11 {
-  position: absolute;
-  margin-top: 400px;    
-  margin-left: 350px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-
-.inner-box12 {
-  position: absolute;
-  margin-top: 400px;    
-  margin-left: 500px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-
-.inner-box13 {
-  position: absolute;
-  margin-top: 400px;    
-  margin-left: 650px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-
-.inner-box14 {
-  position: absolute;
-  margin-top: 400px;    
-  margin-left: 850px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-.inner-box15 {
-  position: absolute;
-  margin-top: 600px;    
-  margin-left: 200px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-.inner-box16 {
-  position: absolute;
-  margin-top: 600px;    
-  margin-left: 350px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-
-.inner-box17 {
-  position: absolute;
-  margin-top: 600px;    
-  margin-left: 500px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-
-.inner-box18 {
-  position: absolute;
-  margin-top: 600px;    
-  margin-left: 650px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-
-.inner-box19 {
-  position: absolute;
-  margin-top: 600px;    
-  margin-left: 50px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
-
-.inner-box20 {
-  position: absolute;
-  margin-top: 600px;  
-
-  
-  margin-left: 850px;
-  width: 100px;
-  height: 100px;
-  background-color: lightgreen;
-}
- 
- 
   .buts
   {
-
+    position: absolute;
+    top: 5px;
+    right: 20px;
     text-align: right; 
   }
   .lo
   {
+    
     font-size: large;
     padding-right: 40px;
     padding-left: 40px;
