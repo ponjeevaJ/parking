@@ -1,11 +1,48 @@
-document.getElementById('log').onclick = clk;
-function clk() {
-    window.open("login.html")
-  }
-  document.getElementById('cre').onclick = clk1;
-function clk1() {
-    window.open("create.html")
-  }
+var a=document.getElementById('login');
+var b=document.getElementById('reg');
+var c=document.getElementById('.btn');
+function reg()
+{
+  a.style.left="-400px";
+  b.style.left="50px";
+  c.style.left="110px";
+}
+function login()
+{
+  a.style.left="50px";
+  b.style.left="450px";
+  c.style.left="0";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// document.getElementById('log').onclick = login;
+// function clk() {
+//     window.open("login.html")
+//   }
+//   document.getElementById('cre').onclick = ccreat;
+// function clk1() {
+//     window.open("create.html")
+//   }
 
     // document.querySelector("#log").addEventListener('click',function(e){
     //   e.preventDefault();

@@ -7,12 +7,28 @@
     <link rel="stylesheet" href="loginpage.css">
 </head>
 <body>
-    <h1>login to our site</h1>
-    <input type="text" placeholder="Enter your id"> <br>
-    <input type="text" placeholder="Enter your name"> <br>
-    <input type="number" placeholder="Enter your number "> <br>
-    <input type="email" placeholder="Enter your mail-id"> <br>
-    <button class="in" id="ini"> log-In</button>
+  <div class="white"> 
+    <div class="butbox">
+        <div id="btn"></div>
+        <button type="log" class="but" onclick="login()">Login</button>
+        <button type="log" class="but" onclick="reg()" >Create</button>
+    </div>
+        <form id="login" class="inputgp">
+            <input type="text" class="inputf" placeholder="use -id" required>
+            <input type="text" class="inputf" placeholder="Pass" required>
+            <input type="checkbox" class="chkbox"><span> Remember pass</span>
+            <button type="submit" class="subbut">Login</button>
+        </form>
+        <form id="reg" class="inputgp">
+            <input type="text" class="inputf" placeholder="Mo-Number" required>
+            <input type="email" class="inputf" placeholder="Mail id" required>
+            <input type="text" class="inputf" placeholder="Pass" required>
+            <input type="checkbox" class="chkbox"><span>I agree to the terms</span>
+            <button type="submit" class="subbut">Register</button>
+        </form>
+    
+    
+  </div>
 </body>
 <script src="login.js"></script>
 </html>
